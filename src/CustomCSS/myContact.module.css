@@ -1,0 +1,18 @@
+
+.h1ForContact {
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+}
+
+.h1ForContact::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background-color: #19B33B;
+    
+}

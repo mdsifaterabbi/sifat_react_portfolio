@@ -1,0 +1,17 @@
+.aboutH3 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    padding-left: 35px;
+    position: relative;
+    text-decoration: none;
+}
+.aboutH3::before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 35px;
+    width: 100px;
+    height: 3px;
+    background-color: #19B33B;
+}
