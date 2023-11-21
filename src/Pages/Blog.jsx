@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <>
             <Layout title={"Blog"}>
-                <span>Blog Page</span>
+                <h1 className="text-purple-600 py-[260px] text-center text-3xl underline">Under Construction...</h1>
             </Layout>
         </>
     )
