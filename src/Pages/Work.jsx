@@ -3,6 +3,20 @@ import styles from "../CustomCSS/Work.module.css"
 import $ from 'jquery'
 import { useEffect, useState } from "react"
 
+import webOne from "../assets/webOne.jpg"
+import webTwo from "../assets/webTwo.jpg"
+import webThree from "../assets/webThree.jpg"
+import graphics1 from "../assets/graphics1.jpg"
+import graphics2 from "../assets/graphics2.jpg"
+import graphics3 from "../assets/graphics3.jpg"
+import web1 from "../assets/web1.jpg"
+import web2 from "../assets/web2.jpg"
+import web3 from "../assets/web3.jpg"
+import photo1 from "../assets/photo1.jpg"
+import photo2 from "../assets/photo2.jpg"
+import photo3 from "../assets/photo3.jpg"
+
+
 const Work = () => {
 
   // Initialize state to store the active filter
@@ -87,18 +101,18 @@ const Work = () => {
 
 
           <div className="flex flex-row flex-wrap text-center justify-center gap-1">
-            <div className={`basis-1/4 md:basis-1/4 bg-orange-600 text-center py-6 three ${styles.galleryItem}`}>One</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-purple-600 text-center py-6 one ${styles.galleryItem}`}>Two</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-green-600 text-center py-6 two ${styles.galleryItem}`}>Three</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-pink-600 text-center py-6 three ${styles.galleryItem}`}>Four</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-slate-600 text-center py-6 one ${styles.galleryItem}`}>Five</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-sky-600 text-center py-6 two ${styles.galleryItem}`}>Six</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-blue-900 text-center py-6 three ${styles.galleryItem}`}>Seven</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-orange-600 text-center py-6 one ${styles.galleryItem}`}>Eight</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-orange-600 text-center py-6 two ${styles.galleryItem}`}>Nine</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-orange-600 text-center py-6 four ${styles.galleryItem}`}>Ten</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-orange-600 text-center py-6 four ${styles.galleryItem}`}>Eleven</div>
-            <div className={`basis-1/4 md:basis-1/4 bg-orange-600 text-center py-6 four ${styles.galleryItem}`}>Twelve</div> 
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 three ${styles.galleryItem}`}><img src={web1} alt="web1 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 one ${styles.galleryItem}`}><img src={webOne} alt="web one image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 two ${styles.galleryItem}`}><img src={graphics1} alt="graphics1 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 three ${styles.galleryItem}`}><img src={web2} alt="web2 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 one ${styles.galleryItem}`}><img src={webTwo} alt="web two image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 two ${styles.galleryItem}`}><img src={graphics2} alt="graphics2 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 three ${styles.galleryItem}`}><img src={web3} alt="web3 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 one ${styles.galleryItem}`}><img src={webThree} alt="web Three image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 two ${styles.galleryItem}`}><img src={graphics3} alt="graphics3 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 four ${styles.galleryItem}`}><img src={photo1} alt="photo1 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 four ${styles.galleryItem}`}><img src={photo2} alt="photo2 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center py-6 four ${styles.galleryItem}`}><img src={photo3} alt="photo3 image"></img></div> 
           </div>
         </section>
       </Layout>
