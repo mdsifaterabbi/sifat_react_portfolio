@@ -101,18 +101,18 @@ const Work = () => {
 
 
           <div className="flex flex-row flex-wrap text-center justify-center gap-1">
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 three ${styles.galleryItem}`}><img src={web1} alt="web1 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 one ${styles.galleryItem}`}><img src={webOne} alt="web one image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 two ${styles.galleryItem}`}><img src={graphics1} alt="graphics1 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 three ${styles.galleryItem}`}><img src={web2} alt="web2 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 one ${styles.galleryItem}`}><img src={webTwo} alt="web two image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 two ${styles.galleryItem}`}><img src={graphics2} alt="graphics2 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 three ${styles.galleryItem}`}><img src={web3} alt="web3 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 one ${styles.galleryItem}`}><img src={webThree} alt="web Three image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 two ${styles.galleryItem}`}><img src={graphics3} alt="graphics3 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 four ${styles.galleryItem}`}><img src={photo1} alt="photo1 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 four ${styles.galleryItem}`}><img src={photo2} alt="photo2 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center py-6 four ${styles.galleryItem}`}><img src={photo3} alt="photo3 image"></img></div> 
+            <div className={`basis-1/4 md:basis-1/4 text-center three ${styles.galleryItem}`}><img src={web1} alt="web1 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center one ${styles.galleryItem}`}><img src={webOne} alt="web one image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center two ${styles.galleryItem}`}><img src={graphics1} alt="graphics1 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center three ${styles.galleryItem}`}><img src={web2} alt="web2 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center one ${styles.galleryItem}`}><img src={webTwo} alt="web two image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center two ${styles.galleryItem}`}><img src={graphics2} alt="graphics2 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center three ${styles.galleryItem}`}><img src={web3} alt="web3 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center one ${styles.galleryItem}`}><img src={webThree} alt="web Three image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center two ${styles.galleryItem}`}><img src={graphics3} alt="graphics3 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center four ${styles.galleryItem}`}><img src={photo1} alt="photo1 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center four ${styles.galleryItem}`}><img src={photo2} alt="photo2 image"></img></div>
+            <div className={`basis-1/4 md:basis-1/4 text-center four ${styles.galleryItem}`}><img src={photo3} alt="photo3 image"></img></div> 
           </div>
         </section>
       </Layout>
