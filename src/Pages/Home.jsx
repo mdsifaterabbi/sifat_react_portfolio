@@ -39,7 +39,7 @@ const Home = () => {
                         <div className="basis-1/1 md:basis-2/3 flex flex-wrap flex-row gap-5 justify-center">
                             <h3 data-aos="flip-up" data-aos-duration="2000" className={`${about_styles.aboutH3} pt-[30px] md:text-[30px] md:tracking-widest inline-block `}>About Me!</h3>
                             <p data-aos="fade-down" data-aos-duration="2000" className="pl-[5px] pr-[5px] sm:pt-[10px] md:pt-[30px] md:pr-[5px] text-[10px] sm:text-[13px] md:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <div data-aos="slide-right" data-aos-duration="1600" className="basis-1/1 md:basis-1/2 text-center border py-[20px] px-[10px]">
+                            <div data-aos="slide-right" data-aos-duration="1600" className="basis-1/1 sm:basis-1/1 md:basis-1/4 text-center border py-[20px] px-[10px]">
                                 <p data-aos="slide-right" data-aos-duration="3600"><FontAwesomeIcon icon={faCoffee} className="text-red-700 text-3xl" /></p>
                                 <p data-aos="slide-down" data-aos-duration="1600">
                                     <CountUp start={0} end={350} delay={0} duration={10}>
@@ -52,7 +52,7 @@ const Home = () => {
                                 </p>
                                 <span className="text-[12px] sm:text-[14px] md:text-xl">Designs</span>
                             </div>
-                            <div data-aos="slide-down" data-aos-duration="800" className="basis-1/1 md:basis-1/2 border text-center py-[20px] px-[10px]">
+                            <div data-aos="slide-down" data-aos-duration="800" className="basis-1/1 sm:basis-1/1 md:basis-1/4 border text-center py-[20px] px-[10px]">
                                 <p data-aos="slide-up" data-aos-duration="3600"><FontAwesomeIcon icon={faBook} className="text-red-700 text-3xl" /></p>
                                 <p data-aos="slide-down" data-aos-duration="1600">
                                     <CountUp start={0} end={450} delay={0} duration={10}>
@@ -65,7 +65,7 @@ const Home = () => {
                                 </p>
                                 <span className="text-[12px] sm:text-[14px] md:text-xl">Photos</span>
                             </div>
-                            <div data-aos="slide-left" data-aos-duration="1600" className="basis-1/1 md:basis-1/2 border text-center py-[20px] px-[10px]"> 
+                            <div data-aos="slide-left" data-aos-duration="1600" className="basis-1/1 sm:basis-1/1 md:basis-1/4 border text-center py-[20px] px-[10px]"> 
                                 <p data-aos="slide-left" data-aos-duration="3600"><FontAwesomeIcon icon={faPlane} className="text-red-700 text-3xl" /></p>
                                 <p data-aos="slide-down" data-aos-duration="3600">
                                     <CountUp start={0} end={550} delay={0} duration={10}>
