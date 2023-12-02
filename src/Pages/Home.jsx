@@ -8,12 +8,14 @@ import { faArrowDown, faBook, faCoffee, faPlane } from "@fortawesome/free-solid-
 import { Link } from "react-router-dom";
 import myProfile from "../assets/profile_1.jpg"
 import CountUp from "react-countup";
+import ServiceComp from "../Component/ServiceComp";
+import WorkComp from "../Component/WorkComp";
+import ContactForm from "../Component/ContactForm";
+
 
 const Home = () => {
 
     AOS.init();
-
-
 
     return (
         <>
@@ -65,7 +67,7 @@ const Home = () => {
                                 </p>
                                 <span className="text-[12px] sm:text-[14px] md:text-xl">Photos</span>
                             </div>
-                            <div data-aos="slide-left" data-aos-duration="1600" className="basis-1/1 sm:basis-1/1 md:basis-1/4 border text-center py-[20px] px-[10px]"> 
+                            <div data-aos="slide-left" data-aos-duration="1600" className="basis-1/1 sm:basis-1/1 md:basis-1/4 border text-center py-[20px] px-[10px]">
                                 <p data-aos="slide-left" data-aos-duration="3600"><FontAwesomeIcon icon={faPlane} className="text-red-700 text-3xl" /></p>
                                 <p data-aos="slide-down" data-aos-duration="3600">
                                     <CountUp start={0} end={550} delay={0} duration={10}>
@@ -81,9 +83,19 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <Link to="/service">
-                    <button className="btn btn-sm btn-info mx-auto block my-[10px]">Services i provide</button>
-                </Link>
+                
+                <section>
+                   <ServiceComp />
+                </section>
+
+                <section>
+                    <WorkComp />
+                </section>
+                
+                <section className="container mx-auto mb-[30px]">
+                    <ContactForm />
+                </section>
+
 
             </Layout>
         </>
