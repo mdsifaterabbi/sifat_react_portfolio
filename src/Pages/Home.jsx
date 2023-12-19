@@ -20,7 +20,9 @@ const Home = () => {
 
     AOS.init();
 
-    const pdfUrl = "../CV/SIFAT_CV.pdf";
+    //const pdfUrl = "../CV/SIFAT_CV.pdf";
+    const pdfUrl = "https://drive.google.com/file/d/1ltTMmve5XU0gNaQYjA58iAqY26RmU6E1/view?usp=drive_link";
+
 
     const [showButton, setShowButton] = useState(false);
 
@@ -61,7 +63,7 @@ const Home = () => {
                     <div className="flex flex-row flex-wrap">
                         <div className="basis-1/1 sm:basis-1/1 md:basis-1/3">
                             <img data-aos="slide-right" data-aos-duration="2000" src={myExactPic} alt="profile picture" className="md:py-[30px]"></img>
-                           
+
                             <div class="flex md:flex-row sm:flex-col items-center">
                                 <a href={pdfUrl} download="SIFAT_CV_downloaded.pdf">
                                     <button className="btn btn-info mt-[10px] px-4 sm:px-6 md:px-8">Download My CV</button>
