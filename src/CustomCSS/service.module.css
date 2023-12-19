@@ -1,4 +1,4 @@
-.aboutH3 {
+.serviceH3 {
     text-transform: uppercase;
     color: orangered;
     font-weight: 600;
@@ -7,12 +7,12 @@
     text-decoration: none;
 }
 
-.aboutH3::before {
+.serviceH3::before {
     content: '';
     position: absolute;
     bottom: 0px;
     left: 0px;
-    width: 60px;
+    width: 80px;
     height: 3px;
     background-color: #19B33B;
 }

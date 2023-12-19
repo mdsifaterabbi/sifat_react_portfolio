@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import myProfilePic from "../assets/pro-2.jpg"
+import myProfilePic from "../assets/profile_2.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars, faEnvelope, faMobile, faPalette, faPhone, faUser } from "@fortawesome/free-solid-svg-icons"
 import { far } from "@fortawesome/free-regular-svg-icons"
@@ -30,9 +30,9 @@ const Navbar = () => {
                                 <span className="badge badge-sm indicator-item">8</span>
                             </div>
                         </label>
-                        <div tabIndex={0} className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+                        <div tabIndex={0} className="mt-3 z-[1] card card-compact dropdown-content w-100 bg-base-100 shadow">
                             <div className="card-body">
-                                <span className="font-bold text-lg">sr.bd.911@gmail.com</span>
+                                <span className="font-bold text-sm">md.sifat.e.rabbi.official@gmail.com</span>
                                 <span className="text-info">01303182929</span>
                             </div>
                         </div>

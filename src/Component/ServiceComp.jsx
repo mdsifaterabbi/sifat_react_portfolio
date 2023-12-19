@@ -1,4 +1,5 @@
 import about_styles from "../CustomCSS/about.module.css"
+import about_styles_2 from "../CustomCSS/service.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChartSimple, faCity } from "@fortawesome/free-solid-svg-icons"
 import { faCodepen, faDropbox, faSoundcloud, faWindows } from "@fortawesome/free-brands-svg-icons";
@@ -10,7 +11,7 @@ const ServiceComp = () => {
     return (
         <>
             <section className="container mx-auto my-[50px]">
-                <div className="text-center pb-[50px]"><h3 data-aos="flip-up" data-aos-duration="2000" className={`${about_styles.aboutH3} pt-[30px] md:text-[30px] md:tracking-widest inline-block`}>Services</h3></div>
+                <div className="text-center pb-[50px]"><h3 data-aos="flip-up" data-aos-duration="2000" className={`${about_styles_2.serviceH3} pt-[30px] md:text-[30px] md:tracking-widest inline-block`}>Services</h3></div>
 
                 <div className="flex flex-row flex-wrap gap-6 justify-center text-center">
                     <div className="basis-1/1 sm:basis-1/3 md:basis-1/4 py-[10px] hover:border-2 hover:border-white hover:bg-slate-200 hover:transition-all duration-500 ease-in-out" data-aos="fade-right" data-aos-duration="2000">

@@ -1,5 +1,5 @@
 import styles from "../CustomCSS/Work.module.css"
-import about_styles from "../CustomCSS/about.module.css"
+import about_styles_2 from "../CustomCSS/service.module.css"
 import $ from 'jquery'
 import { useEffect, useState } from "react"
 
@@ -53,7 +53,7 @@ const WorkComp = () => {
         <>
             <section className={`mt-[100px] mx-auto pb-[100px] ${styles.workSection}`}>
 
-                <div className="text-center pb-[50px]"><h3 data-aos="flip-up" data-aos-duration="2000" className={`${about_styles.aboutH3} pt-[30px] md:text-[30px] md:tracking-widest inline-block`}>Portfolio</h3></div>
+                <div className="text-center pb-[50px]"><h3 data-aos="flip-up" data-aos-duration="2000" className={`${about_styles_2.serviceH3} pt-[30px] md:text-[30px] md:tracking-widest inline-block`}>Portfolio</h3></div>
 
                 <div className="flex flex-row flex-wrap text-center">
                     <div className="basis-1/1 py-3 mx-auto">
