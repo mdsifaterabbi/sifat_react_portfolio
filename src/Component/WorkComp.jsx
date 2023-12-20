@@ -76,7 +76,7 @@ const WorkComp = () => {
                             data-filter="two"
                             onClick={handleFilterClick}
                         >
-                            Graphics-design
+                            UI/UX
                         </button>
                         <button
                             className={`${styles.filterButton} btn btn-sm btn-success mx-[4px] my-[4px] sm:mx-[5px] sm:my-[4px] md:mx-[10px] md:my-[5px] ${activeFilter === 'three' ? styles.activeFilter : ''}`}
@@ -91,7 +91,7 @@ const WorkComp = () => {
                             data-filter="four"
                             onClick={handleFilterClick}
                         >
-                            Photography
+                            Full Stack
                         </button>
 
                     </div>

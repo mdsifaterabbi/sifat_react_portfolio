@@ -14,6 +14,7 @@ import WorkComp from "../Component/WorkComp";
 import ContactForm from "../Component/ContactForm";
 import { useState } from "react";
 import { useEffect } from "react";
+import ProjectComp from "../Component/ProjectComp";
 
 
 const Home = () => {
@@ -65,7 +66,7 @@ const Home = () => {
                             <img data-aos="slide-right" data-aos-duration="2000" src={myExactPic} alt="profile picture" className="md:py-[30px]"></img>
 
                             <div class="flex md:flex-row sm:flex-col items-center">
-                                <a href={pdfUrl} download="SIFAT_CV_downloaded.pdf">
+                                <a href={pdfUrl} download="SIFAT_CV_downloaded.pdf" target="_blank">
                                     <button className="btn btn-info mt-[10px] px-4 sm:px-6 md:px-8">Download My CV</button>
                                 </a>
                             </div>
@@ -122,6 +123,10 @@ const Home = () => {
 
                 <section>
                     <WorkComp />
+                </section>
+
+                <section>
+                    <ProjectComp />
                 </section>
 
                 <section className="container mx-auto mb-[30px]">

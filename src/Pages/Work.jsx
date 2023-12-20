@@ -78,7 +78,7 @@ const Work = () => {
                 data-filter="two"
                 onClick={handleFilterClick}
               >
-                Graphics-design
+                UI/UX
               </button>
               <button
                 className={`${styles.filterButton} btn btn-sm btn-success mx-[4px] my-[4px] sm:mx-[5px] sm:my-[4px] md:mx-[10px] md:my-[5px] ${activeFilter === 'three' ? styles.activeFilter : ''}`}
@@ -93,7 +93,7 @@ const Work = () => {
                 data-filter="four"
                 onClick={handleFilterClick}
               >
-                Photography
+                Full Stack
               </button>
 
             </div>
@@ -112,7 +112,7 @@ const Work = () => {
             <div className={`basis-1/4 md:basis-1/4 text-center two ${styles.galleryItem}`}><img src={graphics3} alt="graphics3 image"></img></div>
             <div className={`basis-1/4 md:basis-1/4 text-center four ${styles.galleryItem}`}><img src={photo1} alt="photo1 image"></img></div>
             <div className={`basis-1/4 md:basis-1/4 text-center four ${styles.galleryItem}`}><img src={photo2} alt="photo2 image"></img></div>
-            <div className={`basis-1/4 md:basis-1/4 text-center four ${styles.galleryItem}`}><img src={photo3} alt="photo3 image"></img></div> 
+            <div className={`basis-1/4 md:basis-1/4 text-center four ${styles.galleryItem}`}><img src={photo3} alt="photo3 image"></img></div>
           </div>
         </section>
       </Layout>
