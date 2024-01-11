@@ -22,7 +22,8 @@ const Home = () => {
     AOS.init();
 
     //const pdfUrl = "../CV/SIFAT_CV.pdf";
-    const pdfUrl = "https://drive.google.com/file/d/1ltTMmve5XU0gNaQYjA58iAqY26RmU6E1/view?usp=drive_link";
+    // const pdfUrl = "https://drive.google.com/file/d/1ltTMmve5XU0gNaQYjA58iAqY26RmU6E1/view?usp=drive_link";
+    const pdfUrl = "https://drive.google.com/file/d/1EAxKgyJRDrmLdDSu-T2e6H6K_9aWnEIp/view?usp=sharing";
 
 
     const [showButton, setShowButton] = useState(false);
